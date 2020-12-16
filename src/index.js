@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Header from './component/header.jsx';
-import Footer from './component/footer.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Header />
+  <React.StrictMode >
+ 
     <App />
-    <Footer/>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

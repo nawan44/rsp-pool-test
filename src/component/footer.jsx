@@ -7,7 +7,7 @@ import { Container, Row, Col, Badge } from 'reactstrap';
 class Footer extends React.Component {
     render() {
         return (
-            <div className="container">
+            <div className="container-footer">
                 <div className="footer-content">
                     <div className="footer-content-detail" >
                         <h4>Site Map</h4>
