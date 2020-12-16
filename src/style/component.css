@@ -1,0 +1,275 @@
+.container {
+    width: 100%;
+    height: 500px;
+    background-color: #0C162A;
+}
+
+.container hr {
+    color: #5C5F64;
+    background-color: #0C162A;
+
+}
+
+.footer-content {
+    background-color: #0C162A;
+    width: 100%;
+    color: #fff;
+    height: 200;
+}
+
+.footer-content-detail {
+    width: 20%;
+    height: 300;
+    float: left;
+    padding: 40px 0 0 0;
+}
+
+.footer-content-detail span {
+    background-color: #929292;
+    padding: 2px;
+    margin: 0 0 0 5px;
+    border-radius: 4px;
+}
+
+.footer-content-detail h4 {
+    margin: 10px 0 10px 40px;
+}
+
+.footer-content-detail ul {
+    list-style-type: none;
+}
+
+.footer-content-detail ul li {
+    margin: 5px 0 5px 0;
+
+}
+
+.footer-content-detail ul li:hover {
+    color: #E48805;
+}
+
+
+.footer-content-allcontact {
+    width: 40%;
+    height: 300;
+    float: left;
+    padding: 40px 0 0 0;
+
+}
+
+.footer-content-allcontact i {
+    color: #35B4AE;
+    font-size: 36px;
+    margin: 10px
+}
+
+.footer-address {
+    width: 100%;
+    height: auto;
+    padding: 0 0 20px 0;
+}
+
+.footer-content-company {
+    width: 50%;
+    float: left;
+    height: auto;
+    background-color: #0C162A;
+}
+
+.footer-content-contact {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.footer-content-company h4 {
+    padding: 20px 0 0 30px;
+}
+
+.footer-content-company p {
+    padding: 10px 20px 10px 30px;
+
+}
+
+.footer-content-contact h4 {
+    padding: 20px 0 0 30px;
+}
+
+.footer-content-contact p {
+    padding: 10px 20px 10px 30px;
+}
+
+.copywright-footer {
+    width: 100%;
+    height: 30px;
+    float: left;
+    background-color: #0C162A;
+}
+
+.copywright-footer p {
+    padding: 10px 0 10px 30px;
+    color: #fff;
+}
+
+/* Phone */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        height: auto;
+
+        background-color: #0C162A;
+    }
+
+    .container hr {
+        color: #5C5F64;
+        background-color: #0C162A;
+    }
+
+    .footer-content {
+        width: 100%;
+        height: 400px;
+        background-color: #0C162A;
+    }
+
+    .footer-content-medsos i {
+        margin: 10px 0 10px 50px;
+    }
+
+    .footer-content-company h4 {
+        margin: 20px 0 0 30px;
+    }
+
+    .footer-content-company p {
+        margin: 10px 0 10px 30px;
+
+    }
+
+    .footer-content-contact h4 {
+        margin: 20px 0 0 30px;
+    }
+
+    .footer-content-contact p {
+        margin: 10px 0 10px 30px;
+
+    }
+
+    .footer-content-company {
+        width: 100%;
+        height: auto;
+        background-color: #0C162A;
+    }
+
+    .footer-content-contact {
+        width: 100%;
+        height: 250px;
+        background-color: #0C162A;
+    }
+
+    .footer-content-allcontact {
+        width: 100%;
+        height: auto;
+        background-color: #0C162A;
+    }
+
+    .footer-content-medsos {
+        width: 100%;
+        height: auto;
+        background-color: #0C162A;
+    }
+
+    .footer-content-detail {
+        width: 100%;
+        height: auto;
+    }
+
+    .copywright-footer {
+        width: 100%;
+        height: 80px;
+    }
+
+    .copywright-footer p {
+        padding: 10px 0 10px 30px;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 100%;
+        height: auto;
+
+        background-color: #0C162A;
+    }
+
+    .container hr {
+        color: #5C5F64;
+        background-color: #0C162A;
+    }
+
+    .footer-content {
+        width: 100%;
+        height: 400px;
+        background-color: #0C162A;
+    }
+
+    .footer-content-medsos i {
+        margin: 10px 0 10px 50px;
+    }
+
+    .footer-content-company h4 {
+        margin: 20px 0 0 30px;
+    }
+
+    .footer-content-company p {
+        margin: 10px 0 10px 30px;
+
+    }
+
+    .footer-content-contact h4 {
+        margin: 20px 0 0 30px;
+    }
+
+    .footer-content-contact p {
+        margin: 10px 0 10px 30px;
+
+    }
+
+    .footer-content-company {
+        width: 100%;
+        height: auto;
+        background-color: #0C162A;
+    }
+
+    .footer-content-contact {
+        width: 100%;
+        height: 250px;
+        background-color: #0C162A;
+    }
+
+    .footer-content-allcontact {
+        width: 100%;
+        height: auto;
+        background-color: #0C162A;
+    }
+
+    .footer-content-medsos {
+        width: 100%;
+        height: auto;
+        background-color: #0C162A;
+    }
+
+    .footer-content-detail {
+        width: 100%;
+        height: auto;
+    }
+
+    .copywright-footer {
+        width: 100%;
+        height: 80px;
+    }
+
+    .copywright-footer p {
+        padding: 10px 0 10px 30px;
+        color: #fff;
+    }
+}
