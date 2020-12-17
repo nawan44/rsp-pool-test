@@ -1,0 +1,142 @@
+.container-course{
+    width: 100%;
+    height: auto;
+}
+.content-course1{
+    width: 100%;
+    height: 300px;
+}
+.content-course1-left{
+    width: 40%;
+    float: left;
+    text-align: left;
+}
+.content-course1-right{
+    float: left;
+    width: 60%;
+    margin : 20px 0 0 0;
+}
+.content-course1-left span {
+    color: orange;
+}
+.content-course1-right img{
+    width: 80%;
+}
+.content-course1-left h5{
+    width: 80%;
+    margin: 50px 5px 30px 50px;
+}
+
+.content-course2{
+    width: 100%;
+    height: 700px;
+    padding: 40px;
+    background-color: #F4F5F6;
+}
+.content-course2-left{
+    width: 60%;
+    height: auto;
+    text-align: left;
+    float: left;
+}
+.content-course2-right{
+    width: 40%;
+    height: auto;
+    float: left;
+}
+.graduate-content{
+    width: 100%;
+    float: left;
+}
+.content-course3{
+    width: 100%;
+    height: 850px;
+    padding: 20px;
+    margin:0 auto;
+    text-align: center;
+    background-color: #FEFEFE;
+}
+
+.person-img{
+    width: 300px;
+}
+.testi{
+    padding: 10px;
+    width: 47%;
+    float: left;
+    height: 700px;
+    margin : 10px;
+    -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+.content-testi{
+    padding: 20px;
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.star i{
+color: #E48800;
+}
+.content-course4{
+    width: 100%;
+    height: 120px;
+    background: #1A2980;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.content-course4-left{
+    color: white;
+    float: left;
+    padding: 40px;
+width: 50%;
+}
+.content-course4-right{
+    width: 50%;
+    float: left;
+    padding: 40px;
+
+}
+.content-course5{
+    width: 100%;
+    padding: 30px;
+}
+.content-course5 h5{
+    text-align: center;
+    margin: 0 auto;
+    width: 180px;
+}
+.tagline{
+    width: 100%;
+    margin: 50px 0 50px 0;
+}
+
+.content-course5 img{
+    width: 70%;
+    margin: 0 0 40px 0;
+}
+
+.badge1 {
+    width: 200px;
+    float: left;
+    background-color: orange;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    margin: 0 20px 0 50px;
+}
+.badge-middle{
+    width: 240px;
+    background-color: orange;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 30px;
+    margin: 0 auto;
+    text-align: center;
+}

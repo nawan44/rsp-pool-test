@@ -5,13 +5,19 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+const whatsapp = {
+  fontSize: 60,
+  color: '#0DB540',
+  position: 'fixed',
+  bottom: 20,
+  right: 20
+}
 
 ReactDOM.render(
   <React.StrictMode >
- 
-    <App />
 
+    <App />
+    <i class='fab fa-whatsapp-square' style={whatsapp}></i>
   </React.StrictMode>,
   document.getElementById('root')
 );
