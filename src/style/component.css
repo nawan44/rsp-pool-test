@@ -80,6 +80,17 @@
 .navbar {
     background: transparent;
 }
+.navblog{
+    background-color: #5CA3BE;
+}
+.navMenuBlog {
+    margin: 0 10px 0 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+}
+
 
 .navMenu:hover {
     color: #E48805;
