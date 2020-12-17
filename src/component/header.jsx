@@ -24,7 +24,7 @@ class Header extends React.Component {
 
                         <div className="badge2">Tingkatkan Skill Anda</div>
                     </div>
-                    <h2>PARTNER EKSKUSIF KAMI</h2>
+                    <h4>PARTNER EKSKUSIF KAMI</h4>
                 </div>
 
                 <Carousel />
