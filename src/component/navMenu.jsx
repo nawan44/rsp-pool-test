@@ -29,8 +29,8 @@ const NavMenu = (props) => {
                     <NavbarText>
 
                         <Nav className="mr-auto" navbar>
-                            <NavLink className="navMenu" href="#">Home</NavLink>
-                            <NavLink className="navMenu" href="#">Courses</NavLink>
+                            <NavLink className="navMenu" href="/">Home</NavLink>
+                            <NavLink className="navMenu" href="/course">Courses</NavLink>
                             <NavLink className="navMenu" href="#">Custom Trainings</NavLink>
                             <NavLink className="navMenu" href="#">Case Studies</NavLink>
                             <NavLink className="navMenu" href="#">Blog</NavLink>

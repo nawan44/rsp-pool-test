@@ -1,19 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './component/header.jsx';
-import Home from './pages/home.jsx';
-import Course from './pages/course';
+import Home from './pages/home/home.jsx';
+import Course from './pages/course/course.jsx';
 import Blog from './pages/blog';
 import Footer from './component/footer.jsx';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
       {/* <Home /> */}
       {/* <Course /> */}
-      <Blog />
+      {/* <Blog /> */}
+
+      <BrowserRouter>
+        <Switch>
+
+          <Route exact path='/' component={Home} />
+          <Route path='/home' component={Home} />
+          <Route path='/course' component={Course} />
+
+
+        </Switch>
+      </BrowserRouter>
       <Footer />
     </div>
   );
