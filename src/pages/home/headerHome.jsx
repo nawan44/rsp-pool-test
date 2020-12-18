@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/home.css';
+import '../style/home.css';
 import NavMenu from '../../component/navMenu.jsx';
 import Carousel from '../../component/carousel';
 

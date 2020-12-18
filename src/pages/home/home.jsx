@@ -1,7 +1,7 @@
 import React from 'react';
 import approval from '../../asset/img/material_approval.png';
 import bolt from '../../asset/img/material_bolt.png';
-import '../css/home.css';
+import '../style/home.css';
 import cnn from '../../asset/logo/cnn.png';
 import medcom from '../../asset/logo/medcom.png';
 import beritasatu from '../../asset/logo/beritasatu.png';

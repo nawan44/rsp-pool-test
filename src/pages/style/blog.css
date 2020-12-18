@@ -1,0 +1,210 @@
+.container-blog {
+    width: 100%;
+    height: 3700px;
+    background-color: #fff;
+}
+
+.container-nav {
+    background-color: #005978;
+
+}
+
+.blog-left1 {
+    width: 70%;
+    height: auto;
+    background-color: #fff;
+    float: left;
+}
+
+.blog-right1 {
+    width: 30%;
+    height: 1150px;
+    background-color: #fff;
+    float: left;
+}
+
+.blog-medsos {
+    width: 100%;
+    padding: 30px;
+}
+
+.blog-medsos h4 {
+    color: #EEA800;
+    font-size: 14px;
+    text-align: left;
+    margin: 10px 0 10px 0;
+}
+
+.blog-medsos h3 {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    margin: 20px 0 20px 0;
+}
+
+.blog-medsos p i {
+    margin: 0 10px 0 0;
+    color: #95D5EC;
+
+}
+
+.medsos p {
+    color: black;
+}
+
+.medsos {
+    text-align: left;
+    font-size: 20px;
+    margin: 0 0 50px 0;
+}
+
+
+.jumbo {
+    padding: 30px;
+    width: 100%
+}
+
+.row-jumbo {
+    width: 100%;
+    height: auto;
+}
+
+.jumbo-child {
+    width: 50%;
+    padding: 20px;
+    height: auto;
+    float: left;
+}
+
+.jumbo-child h6 {
+    color: orange;
+    text-align: left;
+    margin: 30px 0 20px 0;
+}
+
+.jumbo-child p {
+    color: #A1839C;
+    text-align: left;
+    margin: 20px 0 20px 0;
+}
+
+.jumbo-child h5 {
+    color: black;
+    text-align: left;
+    margin: 10px 0 10px 0;
+}
+
+
+.jumbo-child img {
+    width: 50%;
+    height: auto;
+}
+
+
+.jumbo img {
+    width: 300px;
+}
+
+.jumbo h6 {
+    color: orange;
+    text-align: left;
+    margin: 30px 0 20px 0;
+}
+
+.jumbo p {
+    color: #A1839C;
+    text-align: left;
+    margin: 20px 0 20px 0;
+}
+
+.jumbo h5 {
+    color: black;
+    text-align: left;
+    margin: 10px 0 10px 0;
+}
+
+.artikel img {
+    width: 30%;
+    margin: 15px 0 15px 0;
+}
+
+.blog-artikel-populer {
+    background-color: #F9F9F9;
+    padding: 30px 0 0 0;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.blog-artikel-populer h5 {
+    margin: 30px 0 10px 0;
+    color: orange;
+
+}
+
+.blog-artikel-populer h6 {
+    margin: 10px 0 10px 0;
+    font-size: 12px;
+    color: orange;
+
+}
+
+.artikel {
+    width: 100%;
+    height: 300px;
+}
+
+.badge-blog {
+
+    width: 150px;
+    border: 1px orange solid;
+    color: orange;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.badge-blog:hover {
+    background-color: orange;
+
+}
+
+.row2 {
+    width: 100%;
+    float: left;
+    background-color: #F4F5F6;
+}
+
+.row-carousel {
+    padding: 60px 120px;
+}
+
+.row-carousel h3 {
+    margin: 50px;
+}
+
+.blog-case {
+    background-color: #F9F9F9;
+    padding: 30px 0 0 0;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    margin-top: 70px;
+    margin: 0 auto;
+}
+
+.blog-case h5 {
+    margin: 30px 0 10px 0;
+    color: orange;
+
+}
+
+.blog-case h6 {
+    margin: 10px 0 10px 0;
+    font-size: 12px;
+    color: orange;
+
+}

@@ -33,7 +33,7 @@ const NavMenu = (props) => {
                             <NavLink className="navMenu" href="/course">Courses</NavLink>
                             <NavLink className="navMenu" href="#">Custom Trainings</NavLink>
                             <NavLink className="navMenu" href="#">Case Studies</NavLink>
-                            <NavLink className="navMenu" href="#">Blog</NavLink>
+                            <NavLink className="navMenu" href="/blog">Blog</NavLink>
                         </Nav>
 
                     </NavbarText>

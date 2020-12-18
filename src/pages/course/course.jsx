@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/course.css';
+import '../style/course.css';
 import frame from '../../asset/course/frame.png';
 import study from '../../asset/course/study.jpg';
 import Erdi from '../../asset/course/Erdi.jpg';
