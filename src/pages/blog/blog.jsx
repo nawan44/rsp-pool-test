@@ -3,7 +3,7 @@ import NavMenu from '../../component/navMenu';
 import NavBlog from '../../component/navBlog';
 import '../style/blog.css';
 import study from '../../asset/course/study.jpg';
-import CarouselBlog from './carouselBlog';
+import MainSwiperBlog from './mainSwiperBlog';
 
 class Blog extends React.Component {
     render() {
@@ -95,7 +95,7 @@ class Blog extends React.Component {
                 <div className="row2">
                     <div className="row-carousel">
                         <h3>Artikel Unggulan</h3>
-                        {/* <CarouselBlog /> */}
+                        <MainSwiperBlog />
                     </div>
                 </div>
                 <div className="row1">
