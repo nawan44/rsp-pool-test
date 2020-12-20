@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style/home.css';
 import NavMenu from '../../component/navMenu.jsx';
-import Carousel from '../../component/carousel';
+import CarouselHeader from '../../component/carouselHeader.jsx';
 
 
 const badge = {
@@ -26,7 +26,7 @@ class HeaderHome extends React.Component {
                     <h4>PARTNER EKSKUSIF KAMI</h4>
                 </div>
 
-                <Carousel />
+                <CarouselHeader />
             </div>
         );
     }

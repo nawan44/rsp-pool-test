@@ -32,6 +32,11 @@
     color: #fff;
 }
 
+.swiper-slide-image {
+    opacity: 0.6;
+
+}
+
 .content-header p {
     margin: 30px 0 0 0;
     width: 500px;
@@ -72,13 +77,18 @@
 
 .navMenu {
     margin: 0 10px 0 10px;
-    color: black;
+    color: #fff;
     font-weight: bold;
     font-size: 18px;
 }
 
+.navMenu h5 {
+    color: #fff;
+}
+
 .navbar {
     background: transparent;
+    color: #fff;
 }
 
 .navblog {
@@ -106,8 +116,22 @@
 
 .container-carousel {
     width: 100%;
-    height: 80px;
+    height: 100px;
     margin: 120px 0 0 0;
+
+}
+
+.container-carousel img {
+    padding: 10px 0 10px 0;
+    /* background-color: red; */
+
+}
+
+.carousel-image {
+    width: 100%;
+    height: 80px;
+    background-color: #0E5F71;
+    opacity: 0.7;
 }
 
 .footer-content {

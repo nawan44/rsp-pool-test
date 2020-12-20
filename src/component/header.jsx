@@ -1,8 +1,6 @@
 import React from 'react';
 import '../style/component.css';
 import NavMenu from './navMenu';
-import Carousel from './carousel';
-import { Badge } from 'reactstrap';
 
 
 const badge = {
@@ -27,7 +25,6 @@ class Header extends React.Component {
                     <h4>PARTNER EKSKUSIF KAMI</h4>
                 </div>
 
-                <Carousel />
             </div>
         );
     }

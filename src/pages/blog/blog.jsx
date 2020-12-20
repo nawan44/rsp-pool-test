@@ -95,7 +95,7 @@ class Blog extends React.Component {
                 <div className="row2">
                     <div className="row-carousel">
                         <h3>Artikel Unggulan</h3>
-                        <CarouselBlog />
+                        {/* <CarouselBlog /> */}
                     </div>
                 </div>
                 <div className="row1">
