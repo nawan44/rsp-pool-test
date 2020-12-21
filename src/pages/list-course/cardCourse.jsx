@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/list-course.css';
-import { Card, CardImg, CardBody, CardTitle, Row, Col, CardText, Progress, Button } from 'reactstrap';
+import { Card, CardImg, CardBody, CardTitle, Row, Progress } from 'reactstrap';
 import htmlcss from '../../asset/list-corse/htmlcss.png';
 import harlita from '../../asset/list-corse/harlita.png';
 

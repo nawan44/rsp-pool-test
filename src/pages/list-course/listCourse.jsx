@@ -2,7 +2,7 @@ import React from 'react';
 import NavMenu from '../../component/navMenu';
 import '../style/list-course.css';
 import { UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
-import { InputGroup, InputGroupAddon, Button, Input } from 'reactstrap';
+import { NavLink, InputGroup, InputGroupAddon, Button, Input } from 'reactstrap';
 import CardCourse from './cardCourse';
 import PaginationListCourse from './paginationListCourse';
 
@@ -45,8 +45,11 @@ class ListCourse extends React.Component {
                         </InputGroupAddon>
                     </InputGroup>
                 </div>
-                <div className="row-course" >
-                    <CardCourse />
+                <div className="row-course"  >
+                    <NavLink href="/detail-course">
+                        <CardCourse />
+
+                    </NavLink>
                 </div>
                 <div className="row-course"><PaginationListCourse /></div>
             </div>
