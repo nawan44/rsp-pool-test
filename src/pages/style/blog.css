@@ -200,14 +200,15 @@
     width: 70%;
     height: 1200px;
     float: left;
+    background-color: #ffff;
 }
 
 .blog-right2 {
     width: 30%;
     float: left;
     height: 1200px;
-    /* background-color: red; */
-    padding: 30px 0 30px 0;
+    background-color: #ffff;
+    padding: 50px 0 30px 0;
     text-align: center;
     margin: 0 auto;
 }
@@ -278,4 +279,155 @@
     font-size: 12px;
     color: orange;
 
+}
+
+/* Phone */
+@media only screen and (max-width: 768px) {
+    .blog-left1 {
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        float: left;
+    }
+
+    .blog-case {
+        background-color: #F9F9F9;
+        padding: 30px 0 0 0;
+        width: 100%;
+        height: 1000px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .blog-medsos {
+        width: 100%;
+        padding: 30px;
+    }
+
+
+    .side-swiper {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        height: 700px;
+        background-color: #ffff;
+    }
+
+    .row-carousel {
+        padding: 20px 0 30px 0;
+    }
+
+    .row-carousel h3 {
+        margin: 20px;
+    }
+
+    .blog-right1 {
+        width: 100%;
+        height: 1150px;
+        background-color: #fff;
+        float: left;
+    }
+
+    .blog-left2 {
+        width: 100%;
+        height: 1200px;
+        float: left;
+        background-color: #ffff;
+    }
+
+    .blog-right2 {
+        width: 100%;
+        float: left;
+        height: 1200px;
+        background-color: #ffff;
+        padding: 50px 0 30px 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .jumbo-child {
+        width: 100%;
+        padding: 20px;
+        height: auto;
+        float: left;
+    }
+
+    .blog-main-swiper-image img {
+        width: 100%;
+        height: 100px;
+        background-color: red;
+        /* padding: 0 10px 0 10px; */
+        border-radius: 10px;
+
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .blog-left1 {
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        float: left;
+    }
+
+    .blog-medsos {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .blog-case {
+        background-color: #F9F9F9;
+        padding: 30px 0 0 0;
+        width: 100%;
+        height: 1000px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .row-carousel {
+        padding: 20px 0 30px 0;
+    }
+
+    .row-carousel h3 {
+        margin: 20px;
+    }
+
+    .side-swiper {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        height: 700px;
+        background-color: #ffff;
+    }
+
+    .blog-right1 {
+        width: 100%;
+        height: 1150px;
+        background-color: #fff;
+        float: left;
+    }
+
+    .blog-left2 {
+        width: 100%;
+        height: 1200px;
+        float: left;
+        background-color: #ffff;
+    }
+
+    .jumbo-child {
+        width: 100%;
+        padding: 20px;
+        height: auto;
+        float: left;
+    }
+
+    .blog-right2 {
+        width: 100%;
+        float: left;
+        height: 1200px;
+        background-color: #ffff;
+        padding: 50px 0 30px 0;
+        text-align: center;
+        margin: 0 auto;
+    }
 }

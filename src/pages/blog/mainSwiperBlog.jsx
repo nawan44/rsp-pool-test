@@ -33,15 +33,15 @@ class MainSwiperBlog extends React.Component {
                         onSlideChange={() => console.log('slide change')}
 
                     >
-                        <SwiperSlide> <img src={part1} style={{ width: '250px' }} /></SwiperSlide>
-                        <SwiperSlide> <img src={part2} style={{ width: '250px' }} /></SwiperSlide>
-                        <SwiperSlide> <img src={part3} style={{ width: '250px' }} /></SwiperSlide>
-                        <SwiperSlide> <img src={part4} style={{ width: '250px' }} /></SwiperSlide>
-                        <SwiperSlide> <img src={part5} style={{ width: '250px' }} /></SwiperSlide>
-                        <SwiperSlide> <img src={part6} style={{ width: '250px' }} /></SwiperSlide>
-                        <SwiperSlide> <img src={part7} style={{ width: '250px' }} /></SwiperSlide>
-                        <SwiperSlide> <img src={part8} style={{ width: '250px' }} /></SwiperSlide>
-                        <SwiperSlide> <img src={part9} style={{ width: '250px' }} /></SwiperSlide>
+                        <SwiperSlide> <img src={part1} /></SwiperSlide>
+                        <SwiperSlide> <img src={part2} /></SwiperSlide>
+                        <SwiperSlide> <img src={part3} /></SwiperSlide>
+                        <SwiperSlide> <img src={part4} /></SwiperSlide>
+                        <SwiperSlide> <img src={part5} /></SwiperSlide>
+                        <SwiperSlide> <img src={part6} /></SwiperSlide>
+                        <SwiperSlide> <img src={part7} /></SwiperSlide>
+                        <SwiperSlide> <img src={part8} /></SwiperSlide>
+                        <SwiperSlide> <img src={part9} /></SwiperSlide>
 
 
 

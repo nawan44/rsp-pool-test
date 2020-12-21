@@ -31,7 +31,7 @@ const NavMenu = (props) => {
                         <Nav className="mr-auto" navbar>
                             <NavLink className="navMenu" href="/"><h5>Home</h5></NavLink>
                             <NavLink className="navMenu" href="/course"><h5>Courses</h5></NavLink>
-                            <NavLink className="navMenu" href="#"><h5>Custom Trainings</h5></NavLink>
+                            <NavLink className="navMenu" href="/list-course"><h5>List Course</h5></NavLink>
                             <NavLink className="navMenu" href="#"><h5>Case Studies</h5></NavLink>
                             <NavLink className="navMenu" href="/blog"><h5>Blog</h5></NavLink>
                         </Nav>
