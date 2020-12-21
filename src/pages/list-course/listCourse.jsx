@@ -2,7 +2,7 @@ import React from 'react';
 import NavMenu from '../../component/navMenu';
 import '../style/list-course.css';
 import { UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
-import { NavLink, InputGroup, InputGroupAddon, Button, Input } from 'reactstrap';
+import { NavLink, InputGroup, InputGroupAddon, Button, Input, Badge } from 'reactstrap';
 import CardCourse from './cardCourse';
 import PaginationListCourse from './paginationListCourse';
 
@@ -24,9 +24,9 @@ class ListCourse extends React.Component {
                                 All </DropdownToggle>
                             <DropdownMenu>
                                 <DropdownItem>All</DropdownItem>
-                                <DropdownItem>Web Frontend</DropdownItem>
+                                <DropdownItem>Web Frontend   <Badge pill>14</Badge></DropdownItem>
                                 <DropdownItem>Backend</DropdownItem>
-                                <DropdownItem>PHP</DropdownItem>
+                                <DropdownItem>PHP  <Badge pill>3</Badge></DropdownItem>
                                 <DropdownItem>Python</DropdownItem>
                                 <DropdownItem>REST API</DropdownItem>
                                 <DropdownItem>Javascript</DropdownItem>
