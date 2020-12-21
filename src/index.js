@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Login from './pages/login/login';
 
 const whatsapp = {
   fontSize: 60,
@@ -13,9 +14,12 @@ const whatsapp = {
   right: 20
 }
 
-ReactDOM.render(
-  <React.StrictMode >
 
+ReactDOM.render(
+  
+  <React.StrictMode >
+    
+{/* <Login /> */}
     <App />
     <i class='fab fa-whatsapp-square' style={whatsapp}></i>
   </React.StrictMode>,

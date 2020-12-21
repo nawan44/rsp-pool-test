@@ -2,6 +2,7 @@ import React from 'react';
 import approval from '../../asset/img/material_approval.png';
 import bolt from '../../asset/img/material_bolt.png';
 import '../style/home.css';
+import Axios from 'axios';
 import cnn from '../../asset/logo/cnn.png';
 import medcom from '../../asset/logo/medcom.png';
 import beritasatu from '../../asset/logo/beritasatu.png';
@@ -14,10 +15,28 @@ import jawapos from '../../asset/logo/jawa-pos.png';
 import inilahcom from '../../asset/logo/inilahcom.png';
 import HeaderHome from './headerHome';
 
+
 class Home extends React.Component {
+    // constructor() {
+    //     super();
+    //     this.state = {
+    //         data: []
+    //     };
+    // }
+    // componentDidMount() {
+    //     Axios.get("https://raw.githubusercontent.com/cahyo-refactory/RSP-DataSet-SkilTest-FE/main/seen_on.json")
+    //         .then(res => {
+    //             const data = res.data.results;
+    //             this.setState({ data });
+    //         });
+    // }
+    //        const image = this.state;
+
+
     render() {
         return (
             <div>
+
                 <HeaderHome />
                 <div className="container-home">
                     <div className="home-title1">Apa Yang Refactory Dapat Bantu?</div>
@@ -51,6 +70,19 @@ class Home extends React.Component {
                             <img src={tribunnews} />
                             <img src={jawapos} />
                             <img src={inilahcom} />
+
+
+                            {/* 
+                            {image.data.map((item, i) => {
+                                return (
+                                    <div key={i}><img src={item.photo_url} ></img></div>
+
+                                );
+                            })} */}
+
+
+
+
                         </div>
                     </div>
 

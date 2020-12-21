@@ -1,0 +1,15 @@
+.btn-login {
+    margin: 50px 0 30px 0;
+}
+
+.btn-login:hover {
+    background-color: green;
+}
+
+.lupa:hover {
+    color: orange;
+}
+
+.daftar-baru:hover {
+    color: orange;
+}
